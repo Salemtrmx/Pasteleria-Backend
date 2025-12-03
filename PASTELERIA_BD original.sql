@@ -201,9 +201,10 @@ INSERT INTO DECORACION (nombre_decoracion, precio) VALUES
 -- puedes convertir un usuario existente a ADMINISTRADOR.
 -- 
 -- INSTRUCCIONES:
--- 1. Registra un usuario normalmente desde el API (se crea como CLIENTE)
+-- 1. Registra un usuario normalmente desde el front-end (se crea como CLIENTE)
 -- 2. Descomenta las siguientes líneas (elimina los --)
--- 3. Cambia el id_usuario por el ID del usuario que deseas promover
+-- 3. Cambia el id_usuario por el ID del usuario que deseas promover, por defecto será el 
+-- primer usuario que registrarás.
 -- 4. Ejecuta el comando en MySQL
 --
 -- UPDATE USUARIO_ROL SET id_rol = 1 WHERE id_usuario = 1 AND id_rol = 2;
